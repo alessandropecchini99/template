@@ -14,3 +14,8 @@ db:seed --class=<esempio: 'ComicsTableSeeder'>
 
 // creare il controller
 make:controller <esempio: 'Guest/PageController'>
+
+
+
+// INSTALL DEBUG PAGE
+composer require barryvdh/laravel-debugbar --dev
