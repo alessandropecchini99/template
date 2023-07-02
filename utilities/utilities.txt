@@ -15,6 +15,9 @@ db:seed --class=<esempio: 'ComicsTableSeeder'>
 // creare il controller
 make:controller <esempio: 'Guest/PageController'>
 
+// modificare vendor pages
+php artisan vendor:publish
+< poi scegliere il numero corrispondente alla cartella da modificare >
 
 
 // INSTALL DEBUG PAGE
